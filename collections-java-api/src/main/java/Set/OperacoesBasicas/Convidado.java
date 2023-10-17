@@ -43,7 +43,7 @@ public class Convidado {
 
   @Override
   public int hashCode() {
-    // TODO Auto-generated method stub
+
     return Objects.hash(getCodigoConvite());
   }
 

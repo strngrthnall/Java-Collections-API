@@ -33,7 +33,6 @@ public class Palavra {
 
     @Override
   public int hashCode() {
-    // TODO Auto-generated method stub
     return Objects.hash(getPalavra());
   }
 }
