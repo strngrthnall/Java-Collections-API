@@ -13,7 +13,7 @@ public class CadastroProdutos {
   }
 
   public void adicionarProduto(long cod, String nome, 
-    double preco, int quantidade) {
+      double preco, int quantidade) {
     produtoSet.add(new Produto(nome, cod, preco, quantidade));
   }
 
